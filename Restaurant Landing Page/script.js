@@ -58,7 +58,6 @@ navToggle.addEventListener("click", () => {
     navNavigationBar.classList.toggle("show");
 });
 
-// show active navigationbar li
 navNavigationBarLi.forEach(li =>
     li.addEventListener("click", () => {
         const arr = Array.from(li.parentElement.children);
@@ -67,7 +66,6 @@ navNavigationBarLi.forEach(li =>
     })
 );
 
-// svg-up smooth scroll
 svgUp.addEventListener("click", () => {
     window.scroll({
         top: 0,
@@ -76,7 +74,6 @@ svgUp.addEventListener("click", () => {
 });
 
 window.onscroll = function() {
-    // make navbar fixed & change logo color
     if (window.pageYOffset > headerSection.offsetHeight - 75) {
         nav.classList.add("active");
         logoImage.src = "https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988525/logo-rosa.png";
