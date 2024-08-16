@@ -46,7 +46,6 @@ function fadeOutEffect() {
 }
 window.addEventListener("load", fadeOutEffect);
 
-// prevent links click hash
 links.forEach(link =>
     link.addEventListener("click", function(e) {
         e.preventDefault();
