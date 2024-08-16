@@ -30,7 +30,6 @@ const body = document.querySelector("body"),
     boxModelImage = document.querySelector(".menu .box-model img"),
     pageTitle = document.querySelector("title");
 
-// remove loader
 function fadeOutEffect() {
     const fadeEffect = setInterval(function() {
         if (!loader.style.opacity) {
