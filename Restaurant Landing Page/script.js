@@ -1,4 +1,4 @@
-// constants
+
 const body = document.querySelector("body"),
     loader = document.querySelector(".loader-wrap"),
     links = document.querySelectorAll('a[href="#"]'),
