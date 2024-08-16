@@ -53,7 +53,6 @@ links.forEach(link =>
     })
 );
 
-// toggle hamburger menu button
 navToggle.addEventListener("click", () => {
     navToggle.classList.toggle("active");
     navSpanMiddle.classList.toggle("hide");
