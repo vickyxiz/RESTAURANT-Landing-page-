@@ -82,13 +82,10 @@ window.onscroll = function() {
         logoImage.src = "https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/logo-rosa-white.png";
     }
 
-    // header welcome fade out and in
     if (window.pageYOffset > 0) {
         headerText.style.opacity = -window.pageYOffset / 300 + 1;
     }
-    // home page JS
     if (pageTitle.text === "ROSA- Restaurant") {
-        //change dots background color
         if (window.pageYOffset < headerSection.offsetHeight * 0.5) {
             dots.forEach(dot => dot.classList.remove("black"));
             dotTwo.classList.remove("active");
@@ -131,9 +128,7 @@ window.onscroll = function() {
     }
 };
 
-// home page JS
 if (pageTitle.text === "ROSA- Restaurant") {
-    // svg-down smooth scroll
     svgDown.addEventListener("click", () => {
         window.scroll({
             top: aboutSection.offsetTop - 30,
@@ -141,7 +136,6 @@ if (pageTitle.text === "ROSA- Restaurant") {
         });
     });
 
-    // dots smooth scroll
     dots.forEach(dot =>
         dot.addEventListener("click", function() {
             window.scrollTo({
@@ -151,7 +145,6 @@ if (pageTitle.text === "ROSA- Restaurant") {
         })
     );
 
-    // show box model
     menuImgs.forEach(img =>
         img.addEventListener("click", function() {
             const arr = Array.from(this.parentElement.parentElement.children);
@@ -166,9 +159,7 @@ if (pageTitle.text === "ROSA- Restaurant") {
         })
     );
 
-    // box model functions
     function boxModelFun(e) {
-        // close box model
         if (
             e.code === "Escape" ||
             (e.target.tagName === "DIV" && !e.target.classList.contains("arrow")) ||
@@ -188,7 +179,6 @@ if (pageTitle.text === "ROSA- Restaurant") {
                 const arr = Array.from(menuImageContainer.children);
                 const active = arr.find(div => div.classList.contains("active"));
 
-                // change box model image
                 if (
                     e.target.classList.contains("arrow-right") ||
                     e.code === "ArrowRight"
@@ -203,7 +193,6 @@ if (pageTitle.text === "ROSA- Restaurant") {
                     }
                 }
 
-                // change box model image
                 else if (
                     e.target.classList.contains("arrow-left") ||
                     e.code === "ArrowLeft"
