@@ -8,7 +8,7 @@ const body = document.querySelector("body"),
     navNavigationBar = document.querySelector("header nav .navigation-bar"),
     navNavigationBarLi = document.querySelectorAll(
         "header nav .navigation-bar li"
-    ),
+    ), 
     headerText = document.querySelector("header .text"),
     headerSection = document.querySelector("header"),
     aboutSection = document.querySelector(".about-us"),
