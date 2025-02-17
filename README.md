@@ -8,7 +8,7 @@ The ambiance of a restaurant matters—and so does the design of our website! Wi
  
 Elegant layouts     
 
-Sophisticated typography
+Sophisticated typography 
  
 Vibrant colors  
 
