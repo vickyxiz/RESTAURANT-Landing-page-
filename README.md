@@ -6,7 +6,7 @@ Every great dining experience starts with a strong foundation—just like our we
 
 The ambiance of a restaurant matters—and so does the design of our website! With Tailwind CSS, we create a visually stunning and responsive interface. The styling focuses on:
  
-Elegant layouts   
+Elegant layouts    
 
 Sophisticated typography
 
