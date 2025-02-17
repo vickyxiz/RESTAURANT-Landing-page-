@@ -3,7 +3,7 @@
 Every great dining experience starts with a strong foundation—just like our website! The HTML structure is the backbone, organizing essential sections like the Homepage, Menu, Reservations, and Contact Page. Using semantic HTML ensures clarity, accessibility, and SEO optimization.
 
 🎨 Step 2: Elevating Aesthetics (CSS)
-
+ 
 The ambiance of a restaurant matters—and so does the design of our website! With Tailwind CSS, we create a visually stunning and responsive interface. The styling focuses on:
  
 Elegant layouts     
