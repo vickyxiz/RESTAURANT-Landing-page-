@@ -10,7 +10,7 @@ Elegant layouts
 
 Sophisticated typography
 
-Vibrant colors
+Vibrant colors  
 
 Perfect spacing and alignment
 
