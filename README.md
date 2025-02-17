@@ -1,6 +1,6 @@
 🍽️ Step 1: Crafting the Structure (HTML)
 
-Every great dining experience starts with a strong foundation—just like our website! The HTML structure is the backbone, organizing essential sections like the Homepage, Menu, Reservations, and Contact Page. Using semantic HTML ensures clarity, accessibility, and SEO optimization.
+Every great dining experience starts with a strong foundation—just like our website! The HTML structure is the backbone, organizing essential sections like the Homepage, Menu, Reservations, and Contact Page. Using semantic HTML ensures clarity, accessibility, and SEO optimization. 
 
 🎨 Step 2: Elevating Aesthetics (CSS)
  
